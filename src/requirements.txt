@@ -1,0 +1,5 @@
+boto3
+pandas
+pygam
+joblib==1.2.0
+pygam

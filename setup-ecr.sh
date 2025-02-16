@@ -1,0 +1,1 @@
+'#!/bin/bash\n\n# Check if the repository exists\nREPO_NAME="apicontactqualityhackathon"\nif ! aws ecr describe-repositories --repository-names "$REPO_NAME" ; then\n  echo "Repository does not exist. Creating repository..."\n  aws ecr create-repository --repository-name "$REPO_NAME"\nelse\n  echo "Repository already exists."\nfi' 

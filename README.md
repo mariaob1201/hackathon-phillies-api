@@ -1,1 +1,1 @@
-# hackathon-phillies-api
+API in AWS to serve the contact quality model
